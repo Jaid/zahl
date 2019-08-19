@@ -2,22 +2,41 @@
 
 import originalPluralize from "pluralize"
 
-const zahl = (word, count) => {
-  const pluralized = count === 1 ? zahl.singular(word) : zahl.plural(word)
-  return `${count} ${pluralized}`
+/**
+ * @param {*} count
+ * @return {number}
+ */
+export const resolveCount = count => {
+  if (typeof count === "number") {
+    return count
+  }
+  if (typeof count?.length === "number") {
+    return count.length
+  }
+  const convertedNumber = Number(count)
+  if (Number.isNaN(convertedNumber)) {
+    return 0
+  } else {
+    return convertedNumber
+  }
+}
+
+const zahl = (count, word) => {
+  const resolvedCount = resolveCount(count)
+  const pluralized = resolvedCount === 1 ? zahl.singular(word) : zahl.plural(word)
+  return `${resolvedCount} ${pluralized}`
 }
 
 Object.assign(zahl, originalPluralize)
 Object.setPrototypeOf(zahl, Object.getPrototypeOf(originalPluralize))
 
 /**
- * @function
- * @param {string} word
  * @param {number} count
- * @returns {import("pluralize").default}
+ * @param {string} word
+ * @return {import("pluralize").default}
  * @example
  * import zahl from "zahl"
- * const result = zahl("Banana", 3)
- * result === "3 Bananas"
+ * const result = zahl(3, "fresh banana")
+ * result === "3 fresh bananas"
  */
 export default zahl
