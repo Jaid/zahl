@@ -13,6 +13,9 @@ export const resolveCount = count => {
   if (typeof count?.length === "number") {
     return count.length
   }
+  if (typeof count === "object") {
+    return Object.keys(count).length
+  }
   const convertedNumber = Number(count)
   if (Number.isNaN(convertedNumber)) {
     return 0
