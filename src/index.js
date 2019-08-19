@@ -24,7 +24,7 @@ export const resolveCount = count => {
   }
 }
 
-const zahl = (count, word) => {
+const zahl = (count, word = "entry") => {
   const resolvedCount = resolveCount(count)
   const pluralized = resolvedCount === 1 ? zahl.singular(word) : zahl.plural(word)
   return `${resolvedCount} ${pluralized}`
@@ -35,7 +35,7 @@ Object.setPrototypeOf(zahl, Object.getPrototypeOf(originalPluralize))
 
 /**
  * @param {number} count
- * @param {string} word
+ * @param {string} [word="entry"]
  * @return {import("pluralize").default}
  * @example
  * import zahl from "zahl"
