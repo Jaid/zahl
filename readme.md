@@ -3,7 +3,9 @@
 
 Simplified wrapper for pluralize.
 
-<a href="https://raw.githubusercontent.com/Jaid/zahl/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/zahl?style=flat-square&color=success" alt="License"/></a> <a href="https://github.com/Jaid/zahl/commits"><img src="https://img.shields.io/github/commits-since/Jaid/zahl/v2.0.4?style=flat-square&logo=github&color=success" alt="Commits since v2.0.4"/></a> <a href="https://github.com/Jaid/zahl/commits"><img src="https://img.shields.io/github/last-commit/Jaid/zahl?style=flat-square&logo=github&color=red" alt="Last commit"/></a> <a href="https://github.com/Jaid/zahl/issues"><img src="https://img.shields.io/github/issues/Jaid/zahl?style=flat-square&logo=github&color=red" alt="Issues"/></a> <a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/v/zahl?style=flat-square&logo=npm&label=latest%20version&color=red" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/zahl/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/zahl?style=flat-square&logo=npm&color=red" alt="Dependents"/></a> <a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/dm/zahl?style=flat-square&logo=npm&color=red" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/Jaid/zahl/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/zahl?style=flat-square&color=success" alt="License"/></a>
+<a href="https://github.com/Jaid/zahl/commits"><img src="https://img.shields.io/github/commits-since/Jaid/zahl/v2.0.4?style=flat-square&logo=github&color=success" alt="Commits since v2.0.4"/></a> <a href="https://github.com/Jaid/zahl/commits"><img src="https://img.shields.io/github/last-commit/Jaid/zahl?style=flat-square&logo=github&color=red" alt="Last commit"/></a> <a href="https://github.com/Jaid/zahl/issues"><img src="https://img.shields.io/github/issues/Jaid/zahl?style=flat-square&logo=github&color=red" alt="Issues"/></a>
+<a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/v/zahl?style=flat-square&logo=npm&label=latest%20version&color=red" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/zahl/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/zahl?style=flat-square&logo=npm&color=red" alt="Dependents"/></a> <a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/dm/zahl?style=flat-square&logo=npm&color=red" alt="Downloads"/></a>
 
 ## Installation
 <a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/badge/npm-zahl-C23039?style=flat-square&logo=npm" alt="zahl on npm"/></a>
@@ -21,7 +23,9 @@ yarn add zahl@^2.0.4
 
 
 ## Try it out
+
 <a href="https://jsdelivr.com/package/npm/zahl"><img src="https://img.shields.io/badge/Web-zahl-orange?style=flat-square&logo=html5&logoColor=white" alt="Web"/></a>
+
 Open a browser's JavaScript console and execute:
 
 ```javascript
@@ -31,7 +35,7 @@ scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/zahl@2.0.4/index
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-zahl is now stored in the global variable `zahl`. This console expression should return somethin other than `"undefined"`.
+zahl is now stored in the global variable `zahl`. The following console expression should return something other than `"undefined"`.
 
 ```javascript
 typeof zahl.default
