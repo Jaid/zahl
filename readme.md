@@ -3,32 +3,40 @@
 
 Simplified wrapper for pluralize.
 
+<a href="https://raw.githubusercontent.com/Jaid/zahl/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/zahl?style=flat-square&color=success" alt="License"/></a> <a href="https://github.com/Jaid/zahl/commits"><img src="https://img.shields.io/github/commits-since/Jaid/zahl/v2.0.3?style=flat-square&logo=github&color=success" alt="Commits since v2.0.3"/></a> <a href="https://github.com/Jaid/zahl/commits"><img src="https://img.shields.io/github/last-commit/Jaid/zahl?style=flat-square&logo=github&color=red" alt="Last commit"/></a> <a href="https://github.com/Jaid/zahl/issues"><img src="https://img.shields.io/github/issues/Jaid/zahl?style=flat-square&logo=github&color=red" alt="Issues"/></a> <a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/v/zahl?style=flat-square&logo=npm&label=latest%20version&color=red" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/zahl/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/zahl?style=flat-square&logo=npm&color=red" alt="Dependents"/></a> <a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/dm/zahl?style=flat-square&logo=npm&color=red" alt="Downloads"/></a>
+
 ## Installation
-<a href='https://npmjs.com/package/zahl'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
+<a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/badge/npm-zahl-C23039?style=flat-square&logo=npm" alt="zahl on npm"/></a>
 ```bash
-npm install --save zahl@^
+npm install --save zahl@^2.0.3
 ```
-<a href='https://yarnpkg.com/package/zahl'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
+<a href="https://yarnpkg.com/package/zahl"><img src="https://img.shields.io/badge/Yarn-zahl-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="zahl on Yarn"/></a>
 ```bash
-yarn add zahl@^
+yarn add zahl@^2.0.3
+```
+<a href="https://jsdelivr.com/package/npm/zahl"><img src="https://img.shields.io/badge/Web-zahl-orange?style=flat-square&logo=html5&logoColor=white" alt="Web"/></a>
+```html
+<script src="https://cdn.jsdelivr.net/npm/zahl@2.0.3/index.js"/>
 ```
 
 
 ## Try it out
+<a href="https://jsdelivr.com/package/npm/zahl"><img src="https://img.shields.io/badge/Web-zahl-orange?style=flat-square&logo=html5&logoColor=white" alt="Web"/></a>
 Open a browser's JavaScript console and execute:
 
 ```javascript
 const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/zahl@2.0.3");
+scriptElement.setAttribute("type", "text/javascript");
+scriptElement.setAttribute("src", "https://cdn.jsdelivr.net/npm/zahl@2.0.3/index.js");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-The module is now loaded in a variable.
+zahl is now stored in the global variable `zahl`. This console expression should return somethin other than `"undefined"`.
 
 ```javascript
 typeof zahl.default
 ```
+
 
 
 ## License
