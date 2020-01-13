@@ -32,5 +32,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "zahl",
-  "description": "Simplified wrapper for pluralize."
+  "description": "Simplified wrapper for pluralize.",
+  "funding": "https://github.com/sponsors/jaid"
 }
