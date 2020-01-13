@@ -1,9 +1,9 @@
 # zahl
 
 
-<a href="https://raw.githubusercontent.com/Jaid/zahl/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/zahl?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/zahl/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fzahl%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/zahl/commits"><img src="https://img.shields.io/github/commits-since/Jaid/zahl/v2.0.6?style=flat-square&logo=github" alt="Commits since v2.0.6"/></a> <a href="https://github.com/Jaid/zahl/commits"><img src="https://img.shields.io/github/last-commit/Jaid/zahl?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/zahl/issues"><img src="https://img.shields.io/github/issues/Jaid/zahl?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/v/zahl?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/zahl/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/zahl?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/dm/zahl?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/zahl/master/license.txt"><img src="https://img.shields.io/github/license/jaid/zahl?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor zahl"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/zahl/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fzahl%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/zahl/commits"><img src="https://img.shields.io/github/commits-since/jaid/zahl/v2.0.6?style=flat-square&logo=github" alt="Commits since v2.0.6"/></a> <a href="https://github.com/jaid/zahl/commits"><img src="https://img.shields.io/github/last-commit/jaid/zahl?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/zahl/issues"><img src="https://img.shields.io/github/issues/jaid/zahl?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/v/zahl?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/zahl/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/zahl?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/zahl"><img src="https://img.shields.io/npm/dm/zahl?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Simplified wrapper for pluralize.**
 
@@ -41,14 +41,13 @@ yarn add zahl@^2.0.6
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/zahl.git
+git clone git@github.com:jaid/zahl.git
 cd zahl
 npm install
 ```
