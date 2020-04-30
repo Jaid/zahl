@@ -38,5 +38,16 @@
     "url": "https://github.com/jaid/zahl"
   },
   "homepage": "https://github.com/Jaid/zahl",
-  "keywords": []
+  "keywords": [
+    "format",
+    "lib",
+    "library",
+    "node",
+    "node-js",
+    "plural",
+    "pluralize",
+    "string",
+    "util",
+    "utility"
+  ]
 }
