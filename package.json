@@ -6,17 +6,17 @@
     "pluralize": "^8.0.0"
   },
   "devDependencies": {
-    "acorn": "^7.4.0",
-    "babel-jest": "^26.2.2",
-    "babel-preset-jaid": "^8.1.1",
-    "browserslist-config-jaid-universal": "^2.1.0",
-    "eslint": "^7.6.0",
-    "eslint-config-jaid": "^1.49.0",
-    "jest": "^26.2.2",
-    "rimraf": "^3.0.2",
-    "tsconfig-jaid": "^2.0.1",
-    "webpack": "^4.44.1",
-    "webpack-config-jaid": "^11.11.0"
+    "acorn": "^8.11.3",
+    "babel-jest": "^29.7.0",
+    "babel-preset-jaid": "^17.0.0",
+    "browserslist-config-jaid-universal": "^3.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-jaid": "^8.24.0",
+    "jest": "^29.7.0",
+    "rimraf": "^5.0.5",
+    "tsconfig-jaid": "^7.1.0",
+    "webpack": "^5.91.0",
+    "webpack-config-jaid": "^17.4.2"
   },
   "scripts": {
     "clean": "rimraf dist/",
