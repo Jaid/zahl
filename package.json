@@ -9,6 +9,7 @@
     "browserslist-config-jaid-universal": "^3.0.0",
     "eslint": "^8.57.0",
     "eslint-config-jaid": "^8.24.0",
+    "rollup-config-factory": "^0.4.1",
     "webpack": "^5.91.0",
     "webpack-config-jaid": "^17.4.2"
   },
