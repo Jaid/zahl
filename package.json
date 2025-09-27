@@ -7,12 +7,12 @@
   },
   "devDependencies": {
     "browserslist-config-jaid-universal": "^3.0.0",
-    "eslint": "^8.57.0",
-    "eslint-config-jaid": "^8.24.0",
+    "eslint": "^9.36.0",
+    "eslint-config-jaid": "^13.3.2",
     "rollup-config-factory": "^0.4.1",
     "tsconfig-jaid-node": "^8.1.0",
     "typescript": "^5.9.2",
-    "webpack": "^5.91.0",
+    "webpack": "^5.101.3",
     "webpack-config-jaid": "^17.4.2",
     "zeug": "^2.1.0"
   },
