@@ -4,6 +4,7 @@
     "": {
       "name": "zahl",
       "dependencies": {
+        "forward-slash-path": "^0.3.0",
         "pluralize": "^8.0.0",
       },
       "devDependencies": {

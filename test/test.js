@@ -1,4 +1,4 @@
-import path from "path"
+import * as path from 'forward-slash-path'
 
 const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.join(__dirname, "..", "src")) |> require
 
