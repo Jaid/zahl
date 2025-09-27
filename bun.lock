@@ -12,6 +12,7 @@
         "eslint-config-jaid": "^8.24.0",
         "rollup-config-factory": "^0.4.1",
         "tsconfig-jaid-node": "^8.1.0",
+        "typescript": "^5.9.2",
         "webpack": "^5.91.0",
         "webpack-config-jaid": "^17.4.2",
       },
