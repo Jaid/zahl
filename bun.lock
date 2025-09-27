@@ -7,7 +7,6 @@
         "pluralize": "^8.0.0",
       },
       "devDependencies": {
-        "acorn": "^8.11.3",
         "babel-jest": "^29.7.0",
         "babel-preset-jaid": "^17.0.0",
         "browserslist-config-jaid-universal": "^3.0.0",
