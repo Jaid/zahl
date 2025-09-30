@@ -26,11 +26,12 @@
     "babel:test": "rimraf dist/transpiled/test && NODE_ENV=test babel --out-dir dist/transpiled/test src",
     "build:prod": "NODE_ENV=production webpack",
     "build:dev": "NODE_ENV=development webpack",
-    "test": "bun test",
+    "test": "bun test ./test",
     "test:coverage": "npm run test:dev -- --coverage --json --outputFile=dist/jest/stats.json",
     "test:dev": "bun test",
     "test:debug": "DEBUG=\"$DEBUG,$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand",
-    "prepareActionJest": "npm run build:prod"
+    "build": "bun node_modules/rollup/dist/bin/rollup --config",
+    "release": "fd --unrestricted --full-path 'dist[\\\\/]package[\\\\/][\\w-]+[\\\\/]production[\\\\/]package.json' --exec bun publish --cwd {//}"
   },
   "name": "zahl",
   "description": "Simplified wrapper for pluralize.",
